@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <title>TEXT ON IMAGE</title>
+    <link href="C:\Users\GOMATHI A\Desktop\VisualStdio\style1.css" rel = "style1.css" type = "text/css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <body>
+        <style>
+            *{margin: 0; padding: 0;}
+            .container{position : relative;text-align:center;}
+            .loginbox{width : 320px; height: 500px;background:#000;opacity:0.6;top:50%;left:50%;transform: translate(-50%, -50%);position:absolute;color:#fff;box-sizing: border-box;padding:70px 30px;}    
+            .icon{width:100px;height:100px;border-radius:50%;position:absolute;left: calc(50% - 50px);top: -50px}
+            h1{font-size:22px;text-align:center;padding:0 0 20px;margin:0;}
+            .loginbox p{margin:0;padding:0;font-weight: bolder;padding-right:200px;
+            }
+
+            .loginbox input{
+                width:100%;
+                margin-bottom:20px;
+            }
+            .loginbox input[type='text'],input[type='password']{
+                border:none;
+                border-bottom:1px solid #fff;
+                background: transparent;
+                outline:none;
+                height:40px;
+                color:#fff;
+                font-size:16px;
+                font-family: sans-serif;
+            }
+            .loginbox input[type ='submit']
+            {
+                border:none;
+                outline:none;
+                height:40px;
+                background:#fb2525;
+                color:#fff;
+                font-size:18px;
+            }
+            .loginbox a{
+                color:aliceblue;
+            }
+            .btn{
+                width:100%;
+                padding-right:12px;
+                border:none;
+                border-radius:4px;
+                margin:5px 0;
+                opacity:0.85;
+                display:inline-block;
+                font-size:17px;
+                line-height:20px;
+                text-decoration:none;
+                height:35px;
+                text-align:center;
+            }
+            .btn:hover{
+                opacity:1;
+            }
+            .google{
+                background-color:#dd4b39;
+                color:white;
+                padding-top:15px;
+                
+            }
+            .fb{
+                background-color:#3B5998;
+                color:white;
+                padding-top:15px;
+                }
+            
+            .para p{
+                padding-left:120px;
+            }
+            
+            
+        </style>
+        <div class="container">
+            <img src = "C:\Users\GOMATHI A\Desktop\login form images\mountain.jpg" alt="Corn" style ="width:100%">
+        
+         <div class ="loginbox">   
+            <img src = "C:\Users\GOMATHI A\Desktop\login form images\icon.jpg" class = "icon">
+            <h1>Login Here</h1>
+            <form>
+                <p>Username</p>
+                <input type = 'text' name=" " placeholder = "Username">
+                <p>Password</p>
+                <input type= "text" name =" " placeholder = "Password">
+                <input type="submit" value =" Login">
+                <div class="para">
+                    <p>Or</p>
+                </div>
+                <div class="btn">
+               <a href="#" class="google btn"><i class="fa fa-google" aria-hidden="true"></i>Signin with Google</a>
+                <a href ="#" class="fb btn"><i class="fa fa-facebook-official" aria-hidden="true"></i>Signin with Facebook</a>
+                <!--a href ="#" class="twitter btn"><i class="fa fa-twitter" aria-hidden="true"></i>Signin with Twitter</a-->
+                </div>
+                    </form>
+
+        </div>
+        </div>
+    </body>
+</html>
