@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page</title>
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+   
+        <body style= "background-color:black">
+            <style>
+                
+                .container{
+                    margin:0;
+                    padding-left:600px;
+                    padding-top:100px;
+                }
+                 h1{
+                    color : white;
+                    text-align: center;
+                    font: bold;
+                    font-family: sans-serif;
+                }
+                .loginbox{
+                    width:380px;
+                    height:400px;
+                    padding:70px 30px;
+                    box-sizing:border-box;
+                    background:white;
+                    top:50%;
+                    left:50%;
+                    transform:translate(50% - 50px);
+                    }
+                    .loginbox h1{
+                        font-size:bold;
+                        font-family:sans-serif;
+                        color:black;
+                        text-align:center;
+                        padding:0 0 20px;
+                        margin:0;
+                    }
+                    
+                .loginbox p{
+                    font-weight:bold;
+                    font-family:sans-serif;
+                    
+                }
+                .loginbox input{
+                    width:100%;
+                    margin-bottom:20px;
+                    
+                }
+                .loginbox input[type="text"],input[type="password"]
+                {
+                    font-size:18px;
+                    font-family:sans-serif;
+                    border:none;
+                    border-bottom:1px solid gray;
+                    outline:none;
+
+                }
+                .loginbox input[type ='submit']
+            {
+                border:1px solid gray;
+                outline:none;
+                height:40px;
+                background:whitesmoke;
+                color:black;
+                font-size:18px;
+            }
+            
+            
+           
+            </style>
+            <h1>Welcome to edx!</h1>
+            <div class = "container">
+                
+                <div class="loginbox">
+                    <h1>Login Here</h1>
+                    <form>
+                        <p>Username</p>
+                        <input type="text" name=" " placeholder = "Username">
+                        <p>Password</p>
+                        <input type="password" name =" " placeholder = "Password">
+                        <input type="submit" value="Login">
+                        
+                    </form>
+                </div>
+            </div>
+            
+        </body>
+    </head>
+</html>
